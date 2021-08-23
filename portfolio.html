@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        header {
+            text-align: right;
+            padding: 10;
+        }
+
+        ul {
+            text-align: center;
+            list-style-type: none;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111111;
+        }
+
+        body {
+            background-color: Thistle;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            background-color: Thistle;
+        }
+
+        h1.inset {
+            border-style: inset;
+        }
+    </style>
+</head>
+<header>
+    <div style="background-color:black;color:white;padding:20px;">
+        <h1>Tammie's Bio!</h1>
+    </div>
+</header>
+<header>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Recipes</a></li>
+        <li><a href="#contact">Exercises</a></li>
+    </ul>
+    <input type="email" placeholder="Your email">
+    <input type="submit">
+</header>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <img src="./images/bike.jpg" alt="bike" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="./images/wedding.jpg" alt="Wedding" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="./images/yoshi.JPG" alt="Yoshi" style="width:100%">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Hobbies:</h2>
+            <p>
+            <ol>
+                <li>Working Out</li><br>
+                <li>Cycling</li><br>
+                <li>Cooking</li><br>
+                <li>Watching TV</li><br>
+            </ol>
+            </p>
+            <p>I am raising money for Cancer research and riding 50 miles next month!<br>If you would like to donate,
+                please click <a href="https://give.velosano.org/fundraiser/3207069">here</a>.</p>
+
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <h2>About Me:</h2>
+            <p>I am 45 years old and I live in Cleveland, Ohio. I recently got married in Siesta Key. I have a 15 year
+                old daughter and a Himalayan cat that resembles Grumpy Cat.</p>
+            <br>
+            <hr>
+            <p><a href="https://www.grumpycats.com/">What do you think?</a>
+            <p>
+
+        </div>
+        <div class="column" style="background-color:#ccc;">
+            <h2>Why I want to code:</h2>
+            <p>I have had the desire to learn to code for several years now. I have attempted to self-teach, without
+                success. I am hoping to land a job where I can work from home and possibly in the Health and Fitness
+                Industry.</p>
+            <br>
+            <hr><br><br><br>
+        </div>
+</body>
+
+</html>
